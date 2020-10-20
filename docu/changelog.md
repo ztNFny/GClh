@@ -1,9 +1,491 @@
+<a href="#v0108" title="GClh II version 0.10.8 (12.09.2020)">v0.10.8</a> &nbsp;
+<a href="#v0107" title="GClh II version 0.10.7 (07.06.2020)">v0.10.7</a> &nbsp;
+<a href="#v0106" title="GClh II version 0.10.6 (07.05.2020)">v0.10.6</a> &nbsp;
+<a href="#v0105" title="GClh II version 0.10.5 (13.03.2020)">v0.10.5</a> &nbsp;
+<a href="#v0104" title="GClh II version 0.10.4 (13.02.2020)">v0.10.4</a> &nbsp;
 <a href="#v0103" title="GClh II version 0.10.3 (09.01.2020)">v0.10.3</a> &nbsp;
 <a href="#v0102" title="GClh II version 0.10.2 (05.01.2020)">v0.10.2</a> &nbsp;
 <a href="#v0101" title="GClh II version 0.10.1 (20.12.2019)">v0.10.1</a> &nbsp;
 <a href="#v010" title="GClh II version 0.10 (13.12.2019)">v0.10</a> &nbsp;
 <a href="changelog_before.md" title="Go to earlier changelog">Earlier changelog</a> &nbsp;
 
+---
+## v0.10.8:
+
+### Maps:
+<ul>
+	<li>
+		<strong>New:</strong> [New Map] Hide found/own caches, cache types and sidebar also in new Map (Search Map). [<a href="https://github.com/2Abendsegler/GClh/issues/1304" title="Issue 1304">1304</a> / <a href="https://www.geocaching.com/profile/?u=Die Batzen" title="Thanks to Die Batzen">Die Batzen</a><span title="Super!"> 😊]<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_map_hide_sidebar" title="Link to your GClh Config">Settings -> Maps:<br>
+		<img src="../images/0.10.8/Screen14.jpg" alt="Screen14.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>Info:</strong> [New/old Map] Mark features in Config which are only available in one of the maps. [<a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="2Abendsegler">2Abendsegler</a>]<br>
+		The following features are only available on the new Map (Search Map):<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_searchmap_autoupdate_after_dragging" title="Link to your GClh Config">Settings -> Maps:<br>
+		<img src="../images/0.10.8/Screen16.jpg" alt="Screen16.jpg"></a><br>
+		The following features are only available on the old Map (Browse Map):<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_show_homezone" title="Link to your GClh Config">Settings -> Maps:<br>
+		<img src="../images/0.10.8/Screen17.jpg" alt="Screen17.jpg"><br>
+		<img src="../images/0.10.8/Screen18.jpg" alt="Screen18.jpg"><br>
+		<img src="../images/0.10.8/Screen19.jpg" alt="Screen19.jpg"><br>
+		<img src="../images/0.10.8/Screen20.jpg" alt="Screen20.jpg"><br>
+		<img src="../images/0.10.8/Screen21.jpg" alt="Screen21.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Add links on Google Maps and Openstreetmap to new GC Map. [<a href="https://github.com/2Abendsegler/GClh/issues/1374" title="Issue 1374">1374</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_hide_left_sidebar_on_google_maps" title="Link to your GClh Config">Settings -> Maps:<br>
+		<img src="../images/0.10.8/Screen02.jpg" alt="Screen02.jpg"></a><br>
+		Google Maps:<br>
+		<img src="../images/0.10.8/Screen03.jpg" alt="Screen03.jpg"><br>
+		Openstreetmap:<br>
+		<img src="../images/0.10.8/Screen04.jpg" alt="Screen04.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Old Map] Hide and show "Community Celebration Events" together with "Events". [<a href="https://github.com/2Abendsegler/GClh/issues/1386" title="Issue 1386">1386</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		In the old Map there is no icon to hide "Community Celebration Events". Therefore, these events remain visible even if you have hidden all events with the event icons. Now, if you hide or show "Events", the "Community Celebration Events" should also be hidden or showed. This also works for the features "Show / hide all Cachetypes".<br>
+		<img src="../images/0.10.8/Screen01.jpg" alt="Screen01.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New/old Map] Show number of images on the maps and provide a link to the image gallery. [<a href="https://github.com/2Abendsegler/GClh/issues/1399" title="Issue 1399">1399</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		Popup of the old Map (Browse Map):<br>
+		<img src="../images/0.10.8/Screen06.jpg" alt="Screen06.jpg"><br>
+		Detail screen of the new Map (Search Map):<br>
+		<img src="../images/0.10.8/Screen07.jpg" alt="Screen07.jpg"><br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Map] Align logs again correctly in the detail screen. [<a href="https://github.com/2Abendsegler/GClh/issues/1375" title="Issue 1375">1375</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+</ul>
+<br>
+
+### Cache Listing:
+<ul>	
+	<li>
+		<strong>New:</strong> [Cache listing] Highlight found places from cache listing "Search in logtext" in the logs. [<a href="https://github.com/2Abendsegler/GClh/issues/1437" title="Issue 1437">1437</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen13.jpg" alt="Screen13.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Cache listing] Additional link for logging premium caches for non-premium cachers. [<a href="https://github.com/2Abendsegler/GClh/issues/1345" title="Issue 1345">1345</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen12.gif" alt="Screen12.gif"><br><br>
+		To "Log your visit" not inline, you have to do nothing.<br><br>
+		To "Log your visit (inline)" you have to activate possibly the parameter. If you're using an ad-blocking add-on, such as uBlock, the embedded screen may not be allowed. To turn this off, you have to add "www.geocaching.com/geocache/GC*" to the whitelist, or something similar, of your add-on.<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_log_inline_pmo4basic" title="Link to your GClh Config">Settings -> Listing:<br>
+		<img src="../images/0.10.8/Screen26.jpg" alt="Screen26.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Cache listing] After clicking on a log icon in the VIP area, go to the log, even if the log is not yet displayed. [<a href="https://github.com/2Abendsegler/GClh/issues/1411" title="Issue 1411">1411</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen08.gif" alt="Screen08.gif"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Cache listing] Build links to the log section, at the top log totals. [<a href="https://github.com/2Abendsegler/GClh/issues/1413" title="Issue 1413">1413</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen09.gif" alt="Screen09.gif"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Cache Listing] New feature for the menu "copy data to clipboard": Addition of data to clipboard. [<a href="https://github.com/2Abendsegler/GClh/issues/1365" title="Issue 1365">1365</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a> / <a href="https://www.geocaching.com/profile/?u=Die Batzen" title="Thanks to Die Batzen">Die Batzen</a> / <a href="https://www.geocaching.com/profile/?u=Herr Ma" title="Thanks to Herr Ma">Herr Ma</a>]<br>
+		This feature allows you not only to copy something to the clipboard after clearing the clipboard, but also to add something to the clipboard without clearing it. This is how you can collect things on the clipboard. You can enter a separator to use between the addings. The default value is a line feed.<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_show_copydata_menu" title="Link to your GClh Config">Settings -> Listing:<br>
+		<img src="../images/0.10.8/Screen23.jpg" alt="Screen23.jpg"></a><br>
+		If you want to use this feature, you have to activate the parameter.<br><br>
+		For example:<br>
+		1. Copy a GC Code to clipboard<br>
+		2. Than add a further GC Code to clipboard<br>
+		3. Then paste the content of the clipboard with the keys on the keyboard "Strg" ("Ctrl") and "v"<br><br>
+		<img src="../images/0.10.8/Screen24.gif" alt="Screen24.gif"><br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [Cache listing] Display favorite percent and own favorite point in cache listing again. [<a href="https://github.com/2Abendsegler/GClh/issues/1366" title="Issue 1366">1366</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen27.jpg" alt="Screen27.jpg"><br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [Cache listing] "Photo file name" in "Copy Data to Clipboard" feature in cache listings use invalid characters. [<a href="https://github.com/2Abendsegler/GClh/issues/1348" title="Issue 1348">1348</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [Cache listing] For basic member the dropdown menu in premium cache listings are not aligned properly. [<a href="https://github.com/2Abendsegler/GClh/issues/1435" title="Issue 1435">1435</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+</ul>
+<br>
+
+### Owner Dashboard:
+<ul>
+	<li>
+		<strong>New:</strong> [Owner Dashboard] Add links to cachetypes. [<a href="https://github.com/2Abendsegler/GClh/issues/1377" title="Issue 1377">1377</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		<img src="../images/0.10.8/Screen11.jpg" alt="Screen11.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Owner Dashboard] Add link to own profile. [<a href="https://github.com/2Abendsegler/GClh/issues/1402" title="Issue 1402">1402</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		<img src="../images/0.10.8/Screen10.jpg" alt="Screen10.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Owner Dashboard] Build up the new links in Linklist. [<a href="https://github.com/2Abendsegler/GClh/issues/1384" title="Issue 1384">1384</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen05.jpg" alt="Screen05.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Owner Dashboard] Build header with navigation menu and Linklist. [<a href="https://github.com/2Abendsegler/GClh/issues/1382" title="Issue 1382">1382</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+</ul>
+<br>
+
+### New Dashboard:
+<ul>
+	<li>
+		<strong>New:</strong> [New Dashboard] Create direct "Edit log"-links on the dashboard to make logs editable without an extra-step. [<a href="https://github.com/2Abendsegler/GClh/issues/1353" title="Issue 1353">1353</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen22.jpg" alt="Screen22.jpg"><br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Dashboard] Unpublished caches in new dashboard have disappeared. [<a href="https://github.com/2Abendsegler/GClh/issues/1371" title="Issue 1371">1371</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		<img src="../images/0.10.8/Screen25.jpg" alt="Screen25.jpg"><br><br>
+	</li>
+</ul>
+<br>
+
+### Others:
+<ul>
+	<li>
+		<strong>New:</strong> [Header] Get asynchron header replacement only once a day to speed up loading page. [<a href="https://github.com/2Abendsegler/GClh/issues/1427" title="Issue 1427">1427</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Wonders of the World] Build header with navigation menu and Linklist. [<a href="https://github.com/2Abendsegler/GClh/issues/1382" title="Issue 1382">1382</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Drafts] Wrong link to cache listing. [<a href="https://github.com/2Abendsegler/GClh/issues/1415" title="Issue 1415">1415</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen28.jpg" alt="Screen28.jpg"><br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [TB map] Resizable TB-Map does not work. [<a href="https://github.com/2Abendsegler/GClh/issues/1287" title="Issue 1287">1287</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.8/Screen29.gif" alt="Screen29.gif"><br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New log form] Correct position of date. [<a href="https://github.com/2Abendsegler/GClh/issues/1406" title="Issue 1406">1406</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [TB upload] Incorrect navigation menu location on page upload trackable log image. [<a href="https://github.com/2Abendsegler/GClh/issues/1347" title="Issue 1347">1347</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [Menu] Mark new entries in navigation menu. [<a href="https://github.com/2Abendsegler/GClh/issues/1385" title="Issue 1385">1385</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+</ul>
+<br>
+<br>
+(12.09.2020)<br>
+released by <a href="https://www.geocaching.com/profile/?u=2Abendsegler">2Abendsegler</a><br>
+<br>
+
+---
+## v0.10.7:
+<ul>
+	<li>
+		<strong>New:</strong> Show weekday for community celebration events. [<a href="https://github.com/2Abendsegler/GClh/issues/1352" title="Issue 1352">1352</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> "Submit" corrected coordinates does not react. [<a href="https://github.com/2Abendsegler/GClh/issues/1360" title="Issue 1360">1360</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Cache listing page is very slow. [<a href="https://github.com/2Abendsegler/GClh/issues/1358" title="Issue 1358">1358</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Map] GClh doesn't work on new map page. [<a href="https://github.com/2Abendsegler/GClh/issues/1356" title="Issue 1356">1356</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Logs shown twice with disabled VIP list. [<a href="https://github.com/2Abendsegler/GClh/issues/1350" title="Issue 1350">1350</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Map] Wrong position of "size" area in detail screen of a cache on new map page. [<a href="https://github.com/2Abendsegler/GClh/issues/1349" title="Issue 1349">1349</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Scroll Bar at statistik page is missing respectively number of caches not recognizable everywhere. [<a href="https://github.com/2Abendsegler/GClh/issues/1344" title="Issue 1344">1344</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+</ul>
+<br>
+(07.06.2020)<br>
+released by <a href="https://www.geocaching.com/profile/?u=2Abendsegler">2Abendsegler</a><br>
+<br>
+
+---
+## v0.10.6:
+<ul>
+	<li>
+		<strong>New:</strong> Build coords related functions also on unpublished caches. [<a href="https://github.com/2Abendsegler/GClh/issues/1305" title="Issue 1305">1305</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+		<img src="../images/0.10.6/Screen04.jpg" alt="Screen04.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> New placeholder cache type for own stuff in copy to clipboard menu in cache listing #GCType#. [<a href="https://github.com/2Abendsegler/GClh/issues/1327" title="Issue 1327">1327</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_show_copydata_menu" title="Link to your GClh Config">Settings -> Listing</a><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Add parameter to show radius around caches on Flopp's Map. [<a href="https://github.com/2Abendsegler/GClh/issues/1334" title="Issue 1334">1334</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+		<img src="../images/0.10.6/Screen02.jpg" alt="Screen02.jpg"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_show_radius_on_flopps" title="Link to your GClh Config">Settings -> Listing:<br>
+		<img src="../images/0.10.6/Screen03.jpg" alt="Screen03.jpg"></a><br><br>
+	</li>	
+	<li>
+		<strong>New:</strong> Optionally display coordinates in extended map info. [<a href="https://github.com/2Abendsegler/GClh/issues/1330" title="Issue 1330">1330</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_show_enhanced_map_coords" title="Link to your GClh Config">Settings -> Map - Enhanced Map Popup:<br>
+		<img src="../images/0.10.6/Screen01.jpg" alt="Screen01.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Flopp's Map distance line between coords and corrected coords does not work. [<a href="https://github.com/2Abendsegler/GClh/issues/1334" title="Issue 1334">1334</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Favorits percentage for copy to clipboard is not recognized if it is <1% #FavoPerc#. [<a href="https://github.com/2Abendsegler/GClh/issues/1325" title="Issue 1325">1325</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Empty personal cache note for copy to clipboard is not always recognized #GCNote#.  [<a href="https://github.com/2Abendsegler/GClh/issues/1324" title="Issue 1324">1324</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+</ul>
+<br>
+(07.05.2020)<br>
+released by <a href="https://www.geocaching.com/profile/?u=2Abendsegler">2Abendsegler</a><br>
+<br>
+
+---
+## v0.10.5:
+<ul>
+	<li>
+		<strong>New:</strong> New placeholders for own stuff in copy to clipboard menu in cache listing. [<a href="https://github.com/2Abendsegler/GClh/issues/1308" title="Issue 1308">1308</a> / <a href="https://www.geocaching.com/profile/?u=Herr-Ma" title="Thanks to Herr-Ma">Herr-Ma</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.5/Screen15.jpg" alt="Screen15.jpg"><br><br>
+		<strong>New:</strong> Multi entries for own stuff in copy to clipboard menu in cache listing. [<a href="https://github.com/2Abendsegler/GClh/issues/1309" title="Issue 1309">1309</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		You can create for example something like this.<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_show_copydata_menu" title="Link to your GClh Config">Settings -> Listing:<br>
+		<img src="../images/0.10.5/Screen12.jpg" alt="Screen12.jpg"></a><br>
+		Cache Listing:<br>
+		<img src="../images/0.10.5/Screen13.jpg" alt="Screen13.jpg"><br>
+		Clipboard:<br>
+		<img src="../images/0.10.5/Screen14.jpg" alt="Screen14.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Download current config as txt-file. [<a href="https://github.com/2Abendsegler/GClh/issues/1312" title="Issue 1312">1312</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+		<a href="//#GClhShowSync" title="Link to your GClh Sync">GClh Sync<br>
+		<img src="../images/0.10.5/Screen16.jpg" alt="Screen16.jpg"></a><br>
+		<img src="../images/0.10.5/Screen17.jpg" alt="Screen17.jpg"><br>
+		<img src="../images/0.10.5/Screen18.jpg" alt="Screen18.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Button to Google Maps, Flopps, ... [<a href="https://github.com/2Abendsegler/GClh/issues/961" title="Issue 961">961</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.5/Screen06.gif" alt="Screen06.gif"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_hide_left_sidebar_on_google_maps" title="Link to your GClh Config">Settings -> Map:<br>
+		<img src="../images/0.10.5/Screen07.jpg" alt="Screen07.jpg"></a><br>
+		The parameters are not new, they are already used on browse map. <br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Set link to owner. [<a href="https://github.com/2Abendsegler/GClh/issues/1315" title="Issue 1315">1315</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		<img src="../images/0.10.5/Screen19.jpg" alt="Screen19.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Relocate button "Browse geocaches" on search map to the other buttons. [<a href="https://github.com/2Abendsegler/GClh/issues/1282" title="Issue 1282">1282</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.5/Screen05.jpg" alt="Screen05.jpg"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_relocate_other_map_buttons" title="Link to your GClh Config">Settings -> Map:<br>
+		<img src="../images/0.10.5/Screen02.jpg" alt="Screen02.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Browse Map] Relocate button "Search geocaches" on browse map to the other buttons. [<a href="https://github.com/2Abendsegler/GClh/issues/1272" title="Issue 1272">1272</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.5/Screen01.jpg" alt="Screen01.jpg"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_relocate_other_map_buttons" title="Link to your GClh Config">Settings -> Map:<br>
+		<img src="../images/0.10.5/Screen02.jpg" alt="Screen02.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [Browse Map] Show coordinates in additional popup. [<a href="https://github.com/2Abendsegler/GClh/issues/1279" title="Issue 1279">1279</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.5/Screen04.jpg" alt="Screen04.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Show number of words behind the loglength. [<a href="https://github.com/2Abendsegler/GClh/issues/1273" title="Issue 1273">1273</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		Old log form:<br>
+		<img src="../images/0.10.5/Screen10.jpg" alt="Screen10.jpg"><br>
+		New log form:<br>
+		<img src="../images/0.10.5/Screen11.jpg" alt="Screen11.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Build possible links of found and hidden caches in Linklist. [<a href="https://github.com/2Abendsegler/GClh/issues/1271" title="Issue 1271">1271</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#ll#settings_bookmarks_top_menu_h" title="Link to your GClh Config">Settings -> Linklist / Navigation:<br>
+		<img src="../images/0.10.5/Screen03.jpg" alt="Screen03.jpg"></a><br>
+		If you want to use it in your Linklist, you have to set it.<br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Note whether nearby events on dashboard are opened or closed. [<a href="https://github.com/2Abendsegler/GClh/issues/1270" title="Issue 1270">1270</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Refactor helper functions. [<a href="https://github.com/2Abendsegler/GClh/issues/772" title="Issue 772">772</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Map] Compact layout for new fields "placed date". [<a href="https://github.com/2Abendsegler/GClh/issues/1277" title="Issue 1277">1277</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Map] Search Map output of "undefined" behind the favorite points. [<a href="https://github.com/2Abendsegler/GClh/issues/1268" title="Issue 1268">1268</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Load trackables faster without images does not work correct. [<a href="https://github.com/2Abendsegler/GClh/issues/1297" title="Issue 1297">1297</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Parsing error on reset functionality. [<a href="https://github.com/2Abendsegler/GClh/issues/1294" title="Issue 1294">1294</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Key F2 deletes personal note in cache listing. [<a href="https://github.com/2Abendsegler/GClh/issues/1281" title="Issue 1281">1281</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> The alignment of the new logging form is not correct. [<a href="https://github.com/2Abendsegler/GClh/issues/1290" title="Issue 1290">1290</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Hide Facebook login doesn't run, again. [<a href="https://github.com/2Abendsegler/GClh/issues/1306" title="Issue 1306">1306</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+</ul>
+<br>
+(13.03.2020)<br>
+released by <a href="https://www.geocaching.com/profile/?u=2Abendsegler">2Abendsegler</a><br>
+<br>
+
+---
+## v0.10.4:
+<ul>
+	<li>
+		<strong>Fix:</strong> Errors due to the current GDPR (General Data Protection Regulation) changes of GS. [<a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<ul>
+			<li>
+				Clicks on the latest logs icons or the log icons in the VIP tables do not work. [<a href="https://github.com/2Abendsegler/GClh/issues/1193" title="Issue 1193">1193</a>]<br>
+			</li>
+			<li>
+				The alignment of the new logging form is not correct. [<a href="https://github.com/2Abendsegler/GClh/issues/1248" title="Issue 1248">1248</a>]<br>
+			</li>
+			<li>
+				On new Lists page, GClh header with Linklist ... does not load. [<a href="https://github.com/2Abendsegler/GClh/issues/1227" title="Issue 1227">1227</a>]<br>
+			</li>
+			<li>
+				Some unnecessary sliders have recently been added to statistical data. [<a href="https://github.com/2Abendsegler/GClh/issues/1201" title="Issue 1201">1201</a>]<br>
+			</li>
+			<li>
+				Show both tabs in list of pocket queries of one page does not work. [<a href="https://github.com/2Abendsegler/GClh/issues/1214" title="Issue 1214">1214</a>]<br>
+			</li>
+			<li>
+				The TB autovisit feature on the old log page does not work. [<a href="https://github.com/2Abendsegler/GClh/issues/1205" title="Issue 1205">1205</a>]<br>
+			</li>
+			<li>
+				At latest logs in cache listing, title of picture is shown as a second box next to the log. [<a href="https://github.com/2Abendsegler/GClh/issues/1191" title="Issue 1191">1191</a>]<br>
+			</li>
+			<li>
+				The alignment of the "saved" information in the "One click watching" feature is not correct. [<a href="https://github.com/2Abendsegler/GClh/issues/1261" title="Issue 1261">1261</a>]<br>
+			</li>
+			<li>
+				Show number of active pocket queries does not work. [<a href="https://github.com/2Abendsegler/GClh/issues/1216" title="Issue 1216">1216</a>]<br>
+			</li>
+			<li>
+				On new Lists page, GClh does not work correct. [<a href="https://github.com/2Abendsegler/GClh/issues/1228" title="Issue 1228">1228</a>]<br>
+			</li>
+			<li>
+				Edge no longer works with GClh. [<a href="https://github.com/2Abendsegler/GClh/issues/1251" title="Issue 1251">1251</a>]<br><br>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+### Search Map:
+<ul>
+	<li>
+		<strong>New:</strong> [New Map] Own area on detail screen. [<a href="https://github.com/2Abendsegler/GClh/issues/964" title="Issue 964">964</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+		<strong>New:</strong> [New Map] Copy GC-Code to clipboard. [<a href="https://github.com/2Abendsegler/GClh/issues/1196" title="Issue 1196">1196</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+		<strong>New:</strong> [New Map] Show Elevation in Cache Details. [<a href="https://github.com/2Abendsegler/GClh/issues/953" title="Issue 953">953</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+		<img src="../images/0.10.4/Screen19.jpg" alt="Screen19.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Compact layout on detail screens. [<a href="https://github.com/2Abendsegler/GClh/issues/965" title="Issue 965">965</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.4/Screen05.jpg" alt="Screen05.jpg"><br>
+		<img src="../images/0.10.4/Screen06.jpg" alt="Screen06.jpg"><br>
+		<img src="../images/0.10.4/Screen07.jpg" alt="Screen07.jpg"><br>
+		<img src="../images/0.10.4/Screen08.jpg" alt="Screen08.jpg"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_searchmap_compact_layout" title="Link to your GClh Config">Settings -> Map:<br>
+		<img src="../images/0.10.4/Screen09.jpg" alt="Screen09.jpg"></a><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] After go back from cache details to cache list, scroll to last position. [<a href="https://github.com/2Abendsegler/GClh/issues/1247" title="Issue 1247">1247</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.4/Screen01.gif" alt="Screen01.gif"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Show hint automatically. [<a href="https://github.com/2Abendsegler/GClh/issues/1199" title="Issue 1199">1199</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		<img src="../images/0.10.4/Screen10.jpg" alt="Screen10.jpg"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_searchmap_show_hint" title="Link to your GClh Config">Settings -> Map:<br>
+		<img src="../images/0.10.4/Screen11.jpg" alt="Screen11.jpg"></a><br>
+		If you want to use this feature, you have to activate the parameter.<br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Show button to collapse activity. [<a href="https://github.com/2Abendsegler/GClh/issues/1198" title="Issue 1198">1198</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		<img src="../images/0.10.4/Screen14.gif" alt="Screen14.gif"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Strike through title of disabled caches. [<a href="https://github.com/2Abendsegler/GClh/issues/1197" title="Issue 1197">1197</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		<img src="../images/0.10.4/Screen12.jpg" alt="Screen12.jpg"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_searchmap_disabled" title="Link to your GClh Config">Settings -> Map:<br>
+		<img src="../images/0.10.4/Screen13.jpg" alt="Screen13.jpg"></a><br>
+		If you want to use this feature, you have to activate the parameter.<br><br>
+	</li>
+	<li>
+		<strong>New:</strong> [New Map] Adapt the width of the pop up. [<a href="https://github.com/2Abendsegler/GClh/issues/1219" title="Issue 1219">1219</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+		There is a pop up when you select an icon in the new map with the right mouse button.
+		<img src="../images/0.10.4/Screen15.jpg" alt="Screen15.jpg"><br><br>
+	</li>
+</ul>	
+
+### Cache Listing:
+<ul>
+	<li>
+		<strong>New:</strong> Add right mouse click to "Add to list" to open screen "Create a Bookmark". [<a href="https://github.com/2Abendsegler/GClh/issues/1259" title="Issue 1259">1259</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		This function was last deactivated by GS.<br>
+		<img src="../images/0.10.4/Screen16.jpg" alt="Screen16.jpg"><br>
+		<img src="../images/0.10.4/Screen17.jpg" alt="Screen17.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Show own specified entry in menu of copy data to clipboard. [<a href="https://github.com/2Abendsegler/GClh/issues/1253" title="Issue 1253">1253</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		With this feature you can generate an entry in the menu "Copy Data to Clipbord" for example to build file names of cache-specific photos.<br>
+		<img src="../images/0.10.4/Screen03.jpg" alt="Screen03.jpg"><br>
+		<a href="https://www.geocaching.com/my/#GClhShowConfig#a#settings_show_copydata_own_stuff_show" title="Link to your GClh Config">Settings -> Listing:<br>
+		<img src="../images/0.10.4/Screen02.jpg" alt="Screen02.jpg"></a><br>
+		If you want to use this feature, you have to customize the feature and you have to activate the parameter.<br>
+		If you click to the entry in menu "Copy Data to Clipbord", something like this could be in the clipboard.<br>
+		<img src="../images/0.10.4/Screen04.jpg" alt="Screen04.jpg"><br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Consider script GCTour also in feature "copy corrected coordinates". [<a href="https://github.com/2Abendsegler/GClh/issues/1200" title="Issue 1200">1200</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+		<img src="../images/0.10.4/Screen18.jpg" alt="Screen18.jpg"><br><br>
+	</li>
+</ul>
+
+### Others:
+<ul>
+	<li>
+		<strong>New:</strong> Make "copy to clipboard" a function to reduce code duplication. [<a href="https://github.com/2Abendsegler/GClh/issues/1195" title="Issue 1195">1195</a> / <a href="https://www.geocaching.com/profile/?u=Ruko2010" title="Thanks to Ruko2010">Ruko2010</a>]<br>
+	</li>
+	<li>
+		<strong>New:</strong> Implement the newer GC logo in all page headers. [<a href="https://github.com/2Abendsegler/GClh/issues/1237" title="Issue 1237">1237</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>New:</strong> Remove all links to unsecure pages. [<a href="https://github.com/2Abendsegler/GClh/issues/1037" title="Issue 1037">1037</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>New:</strong> Update Overview/Screenshots. [<a href="https://github.com/2Abendsegler/GClh/issues/661" title="Issue 661">661</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br><br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Unpublished hides were shown in recently viewed list after an update from GS. [<a href="https://github.com/2Abendsegler/GClh/issues/1220" title="Issue 1220">1220</a> / <a href="https://www.geocaching.com/profile/?u=capoaira" title="Thanks to capoaira">capoaira</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Cache listing, the "hidden or found by" links for a user with "+" in name does not work. [<a href="https://github.com/2Abendsegler/GClh/issues/1233" title="Issue 1233">1233</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Do not allow GClh Config or GClh Sync on new map page. [<a href="https://github.com/2Abendsegler/GClh/issues/1207" title="Issue 1207">1207</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Correct Mystery radius for Flopp's Map. [<a href="https://github.com/2Abendsegler/GClh/issues/1212" title="Issue 1212">1212</a> / <a href="https://www.geocaching.com/profile/?u=ztNFny" title="Thanks to ztNFny">ztNFny</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Allow Find Player on new map page. [<a href="https://github.com/2Abendsegler/GClh/issues/1209" title="Issue 1209">1209</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> [New Map] The parameter for strike through disabled caches is ignored. [<a href="https://github.com/2Abendsegler/GClh/issues/1250" title="Issue 1250">1250</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+	<li>
+		<strong>Fix:</strong> Type error on description and hint page of new search map. [<a href="https://github.com/2Abendsegler/GClh/issues/1263" title="Issue 1263">1263</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
+	</li>
+</ul>
+<br>
+(13.02.2020)<br>
+released by <a href="https://www.geocaching.com/profile/?u=2Abendsegler">2Abendsegler</a><br>
+<br>
 
 ---
 ## v0.10.3:
@@ -154,7 +636,7 @@ released by <a href="https://www.geocaching.com/profile/?u=2Abendsegler">2Abends
 ---
 ## v0.10:
 
-### Listing:
+### Cache Listing:
 <ul>
 	<li>
 		<strong>New:</strong> One click ignoring/restoring. [<a href="https://github.com/2Abendsegler/GClh/issues/1053" title="Issue 1053">1053</a> / <a href="https://www.geocaching.com/profile/?u=2Abendsegler" title="Thanks to 2Abendsegler">2Abendsegler</a>]<br>
